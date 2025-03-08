@@ -1,0 +1,7 @@
+(:name           "muscle")
+(:repo           "taffish-org/muscle")
+(:author         "KaiyuanHan")
+(:version        "5.3")
+(:intro          "Multiple sequence and structure alignment with top benchmark scores scalable to thousands of sequences. Generates replicate alignments, enabling assessment of downstream analyses such as trees and predicted structures.")
+(:dependencies)
+(:functions      "muscle")

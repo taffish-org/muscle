@@ -1,0 +1,19 @@
++TOOL:muscle
+ARGS
+### Optional ##############################################################################
+    <else>
+        cat ::*LOAD-DIR*::../muscle.info.txt
+    <main>
+        muscle ::opts::
+    <opts>
+        -align  ::in::
+        -output ::out::
+        ::opts-add::
+### NEED ##############################################################################
+    <out>
+        # output file
+    <in>
+        # input file
+RUN
+    <container:taf-muscle-v5.3:ghcr.io/taffish-org/muscle:5.3>
+        ::*MAIN*::
