@@ -1,4 +1,4 @@
-# <muscle:5.3 | KaiyuanHan | 2025-03-08>
+# <muscle:5.3 | KaiyuanHan | 2025-03-13>
 ARGS
 ### Optional ##############################################################################
     <else>
@@ -8,10 +8,10 @@ ARGS
     <opts>
         -align  ::in::
         -output ::out::
-        ::opts-add::
 ### NEED ##############################################################################
     <out>
         # output file
+        ::*WORKDIR*::out.afa
     <in>
         # input file
 RUN

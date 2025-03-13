@@ -10,8 +10,8 @@ ARGS
         -output ::out::
 ### NEED ##############################################################################
     <out>
-        ::*WORKDIR*::out.afa
         # output file
+        ::*WORKDIR*::out.afa
     <in>
         # input file
 RUN
