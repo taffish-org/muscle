@@ -8,9 +8,9 @@ ARGS
     <opts>
         -align  ::in::
         -output ::out::
-        ::opts-add::
 ### NEED ##############################################################################
     <out>
+        ::*WORKDIR*::out.afa
         # output file
     <in>
         # input file
